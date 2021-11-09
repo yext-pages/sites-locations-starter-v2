@@ -4,6 +4,11 @@
         "$id": "locations",
         "source": "knowledgeGraph",
         "destination": "pages",
+        "filter" : {
+            "entityTypes": [
+                "location"
+            ]
+        },
         "fields": [
             "id", 
             "uid", 
@@ -21,14 +26,9 @@
             "paymentOptions",
             "c_relatedFAQs.question",
             "c_relatedFAQs.answer"
-        ], 
+        ],
         "localization": {
             "locales": ["en"]
-        },
-        "filter" : {
-            "entityTypes": [
-                "location"
-            ]
         }
     },
     "urlFormat": "{{slug}}"
