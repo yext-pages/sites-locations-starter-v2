@@ -2,21 +2,17 @@
   "artifactStructure": {
     "assets": [
       {
-        "root": "public"
+        "root": "assets"
       }
     ],
     "hbsTemplates": [
       {
         "root": "templates",
-        "pattern": "*.hbs"
+        "pattern": "**/*.hbs"
       },
       {
         "root": "partials",
         "pattern": "**/*.hbs"
-      },
-      {
-        "root": "public",
-        "pattern": "*.hbs"
       }
     ]
   },

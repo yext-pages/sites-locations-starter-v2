@@ -2,7 +2,6 @@ module.exports = {
   mode: "jit",
   purge: [
     "./partials/**/*.hbs",
-    "./pages/**/*.hbs",
     "./templates/**/*.hbs",
     "./src/**/*.js",
     "./src/**/*.ts",
