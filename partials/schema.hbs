@@ -7,9 +7,7 @@
   "name": "{{name}}",
   "telephone": "{{mainPhone}}",
   "geo": {{>schemaHelpers-geo geocodedCoordinate}},
-  "paymentAccepted": [
-    {{>schemaHelpers-payments paymentOptions}}
-  ],
+  "paymentAccepted": [{{>schemaHelpers-primitiveArray paymentOptions}}],
   "openingHoursSpecification": [
     {{>schemaHelpers-hours hours}}
   ],
