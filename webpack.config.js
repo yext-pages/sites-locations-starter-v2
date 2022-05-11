@@ -6,7 +6,9 @@ module.exports = {
   plugins: [new MiniCssExtractPlugin()],
   entry: {
     main: "./src/main.js",
-    locator: "./src/locator.ts"
+    locator: "./src/locator.ts",
+    analytics: "./src/analytics.js",
+    util: "./src/util.js"
   },
   output: {
     filename: "[name].js",
